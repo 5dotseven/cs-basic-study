@@ -2,7 +2,7 @@
 ## GarbageCollection이란?
 프로그램을 개발 하다 보면 유효하지 않은 메모리인 `Garbage`가 발생하게 됨 이때 이 Garbage를 어떻게 처리할까? C에서는 free()함수를 이용해서 직접 제거하지만 Java & Kotlin 에서는 개발자가 직접 해제 하지않는다. 그렇다면 어떻게 처리가 되는 걸끼?
 
-바로 `JVM의 가비지 컬렉터가 불필요한 메모리를 알아서 정리해준다`
+바로 `JVM의 가비지 컬렉터가 불필요한 메모리를 알아서 정리`
 
 ```java
 Person person = new Person();
