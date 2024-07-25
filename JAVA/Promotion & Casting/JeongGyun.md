@@ -11,11 +11,8 @@ byte < short < int < long < float < double < String
 <------정수형변수----><---- 실수형 변수---->
 
 ![스크린샷 2024-07-24 오후 11 15 13](https://github.com/user-attachments/assets/bf6fae0f-dea8-4f99-9e9a-f3e50690d7cc)
-long 변수는 8바이트, float 변수는 4바이트의 공간을 할당 받지만 float 변수가 더 크다고 되어있음
 
-이는 기본적으로 표현할 수 있는 숫자의 범위가 `실수형 변수가 정수형 변수보다 크다고 정의하기 때문임`
-
-따라서 `long 데이터 타입에서 float 데이터 타입으로 자동 형변환이 가능`하지만 float -> long 자동형변환 불가
+long 변수는 8바이트, float 변수는 4바이트의 공간을 할당 받지만 float 변수가 더 크다고 되어있음 이는 기본적으로 표현할 수 있는 숫자의 범위가 `실수형 변수가 정수형 변수보다 크다고 정의하기 때문임`따라서 `long 데이터 타입에서 float 데이터 타입으로 자동 형변환이 가능`하지만 float -> long 자동형변환 불가
 
 ## 프로모션 (자동 형 변환)
 > 작은 데이터 타입의 값을 더 큰 데이터 타입으로 자동 변환하는 과정
@@ -72,4 +69,9 @@ public class Main {
 }
 ```
 `실수형에서 정수형으로 변환 된 것을 확인가능 하지만 데이터가 손실 됨`
+
+## Reference & Additional Resources
+- https://m.blog.naver.com/PostView.nhn?blogId=haejoon90&logNo=220781157092&proxyReferer=https:%2F%2Fwww.google.com%2F
+- https://f-lab.kr/insight/understanding-java-type-promotion-and-casting
+
 
