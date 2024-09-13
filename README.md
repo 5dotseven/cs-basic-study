@@ -144,7 +144,7 @@
   8. Trie
   9. B-tree & B+tree
 
-- 디자인패턴
+- [`디자인패턴`](https://github.com/5dotseven/cs-basic-study/tree/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4)
      
 
 ## 📆 스터디 일정
