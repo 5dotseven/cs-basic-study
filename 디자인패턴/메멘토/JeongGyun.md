@@ -4,17 +4,7 @@
 
 메멘토패턴을 사용함으로써 객체의 모든 정보를 외부로 노출시키지 않고 캡슐화를 지킬수 있
 
-```mermaid
-classDiagram
-    CareTaker --> Memento
-    CareTaker --> Originator
-    Originator --> Memento
-    Originator : -state
-    Originator : +createMementor()
-    Originator : +restore(Memento)
-    Memento : -state
-    Memento : +Memento(state)
-```
+121
 - Originator: 본래의 상태를 가지고 있고 상태를 저장하고 복원하고 싶은 객체
 - Memento: immutable 한 객체로 일정 지섬의 Originator 내부정보를 가조기 있음
 - CareTaker: Originator 의 내부정보를 Memento type 으로 가지고 있고 복원을 할 수 있는 객체
@@ -148,3 +138,6 @@ public class Client {
   }
 }
 ```
+
+## Reference & Additional Resources
+- https://straw961030.tistory.com/362
